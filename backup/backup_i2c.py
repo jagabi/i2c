@@ -3,7 +3,7 @@
 
 import smbus as sm
 
-address = 0x50
+address = 0x50  #ssss
 bus_num = 1
 bus = sm.SMBus(bus_num)
 

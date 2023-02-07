@@ -26,14 +26,14 @@ void loop()
 }
 
 void sendInt(){
-      Wire.write(currentData);
+  Wire.write(currentData);
 }
 
 void sendStr(){
-    for(int i=0; i<strlen(sentence);i++)
-    {
-      Wire.write(sentence[i]);
-    }
+  for(int i=0; i<strlen(sentence);i++)
+  {
+    Wire.write(sentence[i]);
+  }
 }
 
 void sendDouble(){
